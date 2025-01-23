@@ -11,7 +11,7 @@ published page on [federatief.datastelsel.nl](https://federatief.datastelsel.nl)
 | Link | Description |
 |------|-------------|
 | :handshake: [HackMD.io](https://hackmd.io/) | These documents are available through HackMD.io ... where each doc has its own collaboration link |
-| :hourglass_done: [github.com/idbs-fds/open-collab](https://ibds-fds.github.io/open-collab/) | All documents have version control through this GitHub repo |
+| :hourglass: [github.com/idbs-fds/open-collab](https://ibds-fds.github.io/open-collab/) | All documents have version control through this GitHub repo |
 | :globe_with_meridians: **[ibds-fds.github.io/open-collab/](https://ibds-fds.github.io/open-collab/)** | All documents are open published via GitHub Pages |
 
 List of documents:
