@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Open Collaboration Docs of Federatief Datastelsel
 
 This repo contains several and loosely coupled documents supporting open collaboration during
