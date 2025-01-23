@@ -17,3 +17,4 @@ published page on [federatief.datastelsel.nl](https://federatief.datastelsel.nl)
 List of documents:
 
 - [docs/dag-van-de-toekomstige-ketens](./docs/dag-van-de-toekomstige-ketens)
+- [docs/api-groeimodel](./docs/api-groeimodel)
