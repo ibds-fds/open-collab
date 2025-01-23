@@ -20,7 +20,7 @@
 
 title: Federatief Datastelsel Open Collab
 baseurl:
-url: "https://open-collab.github.io/"
+url: "https://ibds-fds.github.io/open-collab/"
 host: 0.0.0.0
 
 theme: just-the-docs
