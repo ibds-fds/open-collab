@@ -1,5 +1,8 @@
 # Open collaboration docs
 
+[![Deploy Jekyll site to Pages](https://github.com/ibds-fds/open-collab/actions/workflows/jekyll.yml/badge.svg)](https://github.com/ibds-fds/open-collab/actions/workflows/jekyll.yml)
+[![Deploy Jekyll site to Pages](https://github.com/ibds-fds/open-collab/actions/workflows/jekyll.yml/badge.svg)](https://github.com/ibds-fds/open-collab/actions/workflows/jekyll.yml)
+
 This repo contains several and loosely coupled documents supporting open collaboration during
 development of these documents. General end goal for these documents will mostly likely be a
 published page on [federatief.datastelsel.nl](https://federatief.datastelsel.nl).
