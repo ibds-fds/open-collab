@@ -40,28 +40,105 @@ Praatplaat:
 
 ![API Groeimodel praatplaat](https://github.com/ibds-fds/open-collab/blob/8f9d2ab5dc46c87306e97caee0b856720d8e6e28/docs/api-groeimodel/fds-dataservice-levels.jpg?raw=true)
 
-## Het groeimodel
+# API Groeimodel voor Data Ontsluiting
 
-Het API groeimodel biedt een gestructureerde aanpak voor organisaties om hun API-capaciteiten te ontwikkelen van een basis implementatie naar een volledig event-driven architectuur. Enkele belangrijke kenmerken van het model:
+Dit model biedt een gestructureerde aanpak voor organisaties om hun API-capaciteiten te ontwikkelen van een basis implementatie naar een volledig event-driven architectuur. Enkele belangrijke kenmerken van het model:
 
 - Incrementele groei: Elk level bouwt voort op het vorige
 - Praktische implementatie: Concrete capabilities per niveau
 - Holistische benadering: Zowel technische als organisatorische aspecten
 - Flexibiliteit: Organisaties kunnen hun eigen tempo bepalen
 
-### Level 0 API First
+## Level 0: Basis API Aanwezigheid
 
-Voor een API groeimodel is (uiteraard) eerst een API nodig. In het kader van dit groeimodel wordt geduidt op een 'web API', een Application Programming Interface (API) die via het web / internet te benaderen is.
+- Implementatie van een basis REST API
+- Fundamentele CRUD-operaties (Create, Read, Update, Delete)
+- Basis authenticatie en autorisatie
+- Minimale documentatie voor directe gebruikers
+- JSON als standaard formaat voor data uitwisseling
 
-De meest bekende en huidige staat van technologie gebruikte vorm is **REST API**. Hiervoor bestaan al een mooi set van [REST API Design Rules](https://www.forumstandaardisatie.nl/open-standaarden/rest-api-design-rules).
+## Level 1: Gestructureerde Metadata
 
-De strategie in de ontwikkeling van (REST) API's is **API First**. Dat betekent dat _eerst_ het contract wordt opgesteld waar de API aan gaat voldoen. _Daarna_ komt pas de implementatie en het gebruik. Concreet stel je dus eerst het 'API contract' op volgens de [Open API Specificatie](https://www.forumstandaardisatie.nl/open-standaarden/openapi-specification). Daarmee ontstaat namelijk direct de opstap voor _level 1_.
+- Implementatie van OpenAPI/Swagger specificaties
+- Gestandaardiseerde foutafhandeling en statuscodes
+- Basis versioning van de API
+- Uitgebreide API documentatie met voorbeelden
+- Monitoring van API gebruik en beschikbaarheid
+- Rate limiting en quota management
 
-### Level 1 Metadata
+## Level 2: Semantische Laag
 
-Elke API heeft een doel. Elke API gebruikt en/of levert gegevens / data. Elke API kent een bepaalde context waarin deze API functionaliteit ter beschikking stelt. In _level 1_ ligt de nadruk op de **metadata** die bij een API gepubliceerd dient te worden. Door bij de ontwikkeling van API's _API First_ te hanteren, wordt hier al direct een start mee gemaakt.
+- Implementatie van een ontologie voor datastructuren
+- Gedocumenteerde relaties tussen databronnen
+- Gestandaardiseerde begrippenkader en definities
+- Content negotiation (JSON, XML, RDF)
+- Implementatie van linked data principes
+- Semantic versioning
 
-Metadata is nog steeds heel breed. _Level 1_ betekent in ieder geval dat er metadata _is_. De basis hiervan kan dmv toepassen van de [Open API Specificatie](https://www.forumstandaardisatie.nl/open-standaarden/openapi-specification). Daarnaast worden standaarden rondom kwaliteit en dergelijke gehanteerd zoals beschreven op [NORA Online | Nationaal Semantisch Vlak](https://www.noraonline.nl/wiki/Nationaal_Semantisch_Vlak) en [federatief.datastelsel.nl | Metadata](https://federatief.datastelsel.nl/kennisbank/metadata/).
+## Level 3: Event-Driven Architectuur
 
-### Level 2 Ontologie
+- Implementatie van webhook mechanismen
+- Audit logging van belangrijke gebeurtenissen
+- Event-notifications voor data wijzigingen
+- Mogelijkheid tot het abonneren op specifieke events
+- Tracking van data lineage
+- Asynchrone verwerkingspatronen
 
+## Level 4: Event Sourcing
+
+- Volledig event-gebaseerde architectuur
+- Complete audit trail van alle wijzigingen
+- Temporal querying (historische states opvragen)
+- Event replay mogelijkheden
+- Complex event processing
+- Stream processing capabilities
+
+## Level 5: Rijke Event Stream
+
+- Real-time event streaming
+- Geavanceerde event patronen herkenning
+- Machine learning op event streams
+- Predictieve analyses
+- Self-healing capabilities
+- Automatische schaalbaarheid
+
+## Per Level Vereiste Capabilities
+
+### Technisch
+- Infrastructuur requirements
+- Security maatregelen
+- Performance eisen
+- Schaalbaarheid voorzieningen
+
+### Organisatorisch
+- Governance structuren
+- Team competenties
+- Documentatie standaarden
+- Support processen
+
+### Data Management
+- Data kwaliteit controles
+- Privacy maatregelen
+- Retention policies
+- Backup strategieën
+
+## Transitie tussen Levels
+
+Voor elke overgang tussen levels moet een organisatie:
+1. Assessment uitvoeren van huidige capabilities
+2. Gap analysis maken voor het volgende level
+3. Roadmap opstellen voor implementatie
+4. Risico analyse uitvoeren
+5. Resources alloceren
+6. Training en educatie verzorgen
+7. Monitoring implementeren voor succes metrics
+
+## Succesfactoren
+
+- Executive sponsorship
+- Duidelijke business case per level
+- Adequate resource allocatie
+- Gestructureerd change management
+- Continue evaluatie en bijsturing
+- Stakeholder management
+- Training en kennisdeling
