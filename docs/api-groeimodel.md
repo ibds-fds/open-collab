@@ -4,9 +4,12 @@ layout: default
 
 # API Groeimodel
 
-> [!Note]Uitleg & Status
+> [!Note]Uitleg
 > Dit document is bedoeld om samen te werken, input en feedback
-op te halen over dit onderwerp. Er is een eerste versie van het groeimodel uitgewerkt door Marc van Andel en feedback is van harte welkom. De implementatie onderdelen zijn nog erg prematuur en slechts ter suggestie.
+op te halen over dit onderwerp.
+
+> [!Note]Status v0.1
+> Er is een eerste versie van het groeimodel uitgewerkt door Marc van Andel en feedback is van harte welkom. De implementatie onderdelen zijn nog erg prematuur en slechts ter suggestie.
 
 > [!Note]Participeren?
 >
