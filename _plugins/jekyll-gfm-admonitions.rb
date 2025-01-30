@@ -90,7 +90,7 @@ module JekyllGFMAdmonitions
     end
 
     def convert_admonitions(doc)
-      doc.content.gsub!(/>\s*\[!(IMPORTANT|NOTE|WARNING|TIP|CAUTION)\]\s*([0-9A-Za-z\ \?]*)?\s*\n((?:>.*\n?)*)/i) do
+      doc.content.gsub!(/>\s*\[!(IMPORTANT|NOTE|WARNING|TIP|CAUTION)\]\s*([0-9A-Za-z\ \.\?]*)?\s*\n((?:>.*\n?)*)/i) do
         type = ::Regexp.last_match(1).downcase
         title = ::Regexp.last_match(2)
         if title.strip.empty?
@@ -105,10 +105,11 @@ module JekyllGFMAdmonitions
     end
 
     def admonition_html(type, title, text, icon)
-      "<div class='markdown-alert markdown-alert-#{type}'>
-          <p class='markdown-alert-title'>#{icon} #{title}</p>
-          <p>#{@markdown.convert(text)}</p>
-        </div>\n\n"
+#      "<div class='markdown-alert markdown-alert-#{type}'>
+#          <p class='markdown-alert-title'>#{icon} #{title}</p>
+#          <p>#{@markdown.convert(text)}</p>
+#        </div>\n\n"
+	""
     end
   end
 
