@@ -5,8 +5,7 @@ layout: default
 # API Groeimodel
 
 > [!Note]Uitleg
-> Dit document is bedoeld om samen te werken, input en feedback
-op te halen over dit onderwerp.
+> Alle tekst in deze blokken komen niet in het gepubliceerde document op github pages of uiteindelijke publicatie op [federatief.datastelsel.nl](https://federatief.datastelsel.nl), maar zijn bedoeld als uitleg voor jou als bijdrager hier op HackMD.
 
 > [!Note]Status v0.1
 > Er is een eerste versie van het groeimodel uitgewerkt door Marc van Andel en feedback is van harte welkom. De implementatie onderdelen zijn nog erg prematuur en slechts ter suggestie.
@@ -14,7 +13,20 @@ op te halen over dit onderwerp.
 > [!Note]Participeren?
 >
 > [![hackmd-github-sync-badge](https://hackmd.io/@sKaZGRntQFK2ujQafF2s3g/By6z6yxdke/badge)](https://hackmd.io/@sKaZGRntQFK2ujQafF2s3g/By6z6yxdke) \
-> :100: Het staat iedereen vrij te participeren in dit document. Op basis van goed vertrouwen.
+>:100: Het doel van dit document is om in open samenwerking tot een volledig uitgewerkte versie te komen. Het staat iedereen vrij te participeren in dit document. Op basis van goed vertrouwen.
+> \
+> \
+> Je hebt in dit document twee opties:
+> 1. Commentaar achterlaten;
+> 2. Een tekstsuggestie doen.
+>
+> Selecteer een stuk tekst. Er opent dan een klein menu waarin je kan kiezen voor "*Comment*", "*Suggest Edit*", "*Edit from here*" of "*Copy link*".
+> \
+> \
+> Participeren via github is niet mogelijk zal daar ook niet worden behandeld. Je kan in plaats daarvan met of zonder je github account op HackMD participeren.
+> \
+> \
+> Wil je als bijdrager erkend worden in de lijst van bijdragers onderaan dit document? Zet dan je naam en eventueel organisatie in een commentaar veld bij dat hoofdstuk. Als je wil dat je naam linkt naar een online profiel o.i.d., laat dat dan ook weten.
 
 > [!Important]Beheerder
 > :smiley: Marc van Andel
@@ -25,7 +37,7 @@ hier inloggen via dat account zodat je bijdragen traceerbaar zijn.
 
 Natuurlijk zijn er
 [REST-API Design Rules](https://www.forumstandaardisatie.nl/open-standaarden/rest-api-design-rules).
-Dat is een mooi begin. Maar is een REST API _alles_? :thinking_face: 
+Dat is een mooi begin. Maar is een REST API _alles_? 🤔
 
 Sterker nog, een API is het begin van het ontsluiten en (dus) kunnen raadplegen van gegevens. Een RESTful API heeft ook mogelijkheden voor het bijwerken van informatie. Maar ... is dat voldoende voor de informatievoorziening in een keten? **Nee! Zeker niet!**
 
@@ -338,3 +350,13 @@ Voor elke overgang tussen levels moet een organisatie:
 - Validatie tools
 - Visualisatie tools
 - Testing frameworks
+
+## Bijdragers
+
+Dank aan alle hier bij naam genoemd, maar ook alle bijdragers die graag anoniem willen blijven.
+
+* [Marc van Andel](https://www.linkedin.com/in/marcvanandel) (Hoofdauteur; Team FDS, Kadaster)
+---
+<small>Deze tekst is beschikbaar onder de EUPL v1.2 of hoger</small>
+
+[![hackmd-github-sync-badge](https://hackmd.io/@sKaZGRntQFK2ujQafF2s3g/By6z6yxdke/badge)](https://hackmd.io/@sKaZGRntQFK2ujQafF2s3g/By6z6yxdke)
