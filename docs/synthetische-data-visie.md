@@ -9,7 +9,7 @@ layout: default
 
 > [!Note]Participeren?
 >
-> [![hackmd-github-sync-badge](--/badge)](--) \
+> [![hackmd-github-sync-badge](https://hackmd.io/@sKaZGRntQFK2ujQafF2s3g/SJ9FGZ-YJe/badge)](https://hackmd.io/@sKaZGRntQFK2ujQafF2s3g/SJ9FGZ-YJe) \
 >:100: Het doel van dit document is om in open samenwerking tot een volledig uitgewerkte versie te komen. Het staat iedereen vrij te participeren in dit document. Op basis van goed vertrouwen.
 > \
 > \
@@ -57,3 +57,14 @@ Bovendien biedt deze aanpak voordelen op het gebied van privacy en ethiek: omdat
 ## Toekomstperspectief
 
 De ontwikkeling van een dergelijke tijdmachine vraagt om een multidisciplinaire aanpak waarbij domeinkennis, data science, kunstmatige intelligentie en juridische expertise samenkomen. Door synthetische data op deze manier te genereren, creëren we niet alleen een waardevol hulpmiddel voor analyse en simulatie, maar leggen we ook de basis voor een datagedreven overheid die verantwoord en innovatief omgaat met informatie.
+
+## Bijdragers
+
+Dank aan alle hier bij naam genoemd, maar ook alle bijdragers die graag anoniem willen blijven.
+
+* [Marc van Andel](https://www.linkedin.com/in/marcvanandel) (Hoofdauteur; Team FDS, Kadaster)
+* ...
+---
+<small>Deze tekst is beschikbaar onder de EUPL v1.2 of hoger</small>
+
+[![hackmd-github-sync-badge](https://hackmd.io/@sKaZGRntQFK2ujQafF2s3g/SJ9FGZ-YJe/badge)](https://hackmd.io/@sKaZGRntQFK2ujQafF2s3g/SJ9FGZ-YJe)
