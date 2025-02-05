@@ -18,3 +18,4 @@ List of documents:
 
 - [docs/dag-van-de-toekomstige-ketens](./docs/dag-van-de-toekomstige-ketens)
 - [docs/api-groeimodel](./docs/api-groeimodel)
+- [docs/synthetische-data-visie](./docs/synthetische-data-visie)
